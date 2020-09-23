@@ -1,0 +1,17 @@
+\documentclass{article}
+\usepackage{pgfplots}
+\usepackage{filecontents}
+
+\pgfplotsset{compat=1.13}
+\begin{document}
+\begin{figure}
+	\centering
+	\newlength\figureheight 
+	\newlength\figurewidth 
+	\setlength\figureheight{6cm} 
+	\setlength\figurewidth{6cm}
+	\input{test.tikz}
+	\caption{A plot of a sphere}
+	\label{fig:sphere}
+\end{figure}
+\end{document}

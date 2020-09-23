@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		439BEA6520CE9049000DC7E4 /* morwilog_v6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 439BEA6320CE9049000DC7E4 /* morwilog_v6.cpp */; };
+		439BEA6720CFBABE000DC7E4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 439BEA6620CFBABE000DC7E4 /* main.cpp */; };
+		439BEA8A20CFBE12000DC7E4 /* LogSummary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 439BEA8820CFBE12000DC7E4 /* LogSummary.cpp */; };
+		439BEA8D20CFC04E000DC7E4 /* Log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 439BEA8B20CFC04E000DC7E4 /* Log.cpp */; };
+		439BEA9320CFC11B000DC7E4 /* LogDictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 439BEA9120CFC11A000DC7E4 /* LogDictionary.cpp */; };
+		439BEA9620CFC1F1000DC7E4 /* FieldEntry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 439BEA9420CFC1F1000DC7E4 /* FieldEntry.cpp */; };
+		439BEA9A20CFC25D000DC7E4 /* Classifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 439BEA9920CFC25D000DC7E4 /* Classifier.cpp */; };
+		439BEA9D20CFC284000DC7E4 /* InvDictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 439BEA9B20CFC284000DC7E4 /* InvDictionary.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		431D5C871CEDC08C00DB2484 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		439BEA6A20CFBADB000DC7E4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		431D5C891CEDC08C00DB2484 /* Morwilog_v6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Morwilog_v6; sourceTree = BUILT_PRODUCTS_DIR; };
+		431D5CBE1CEDC0EE00DB2484 /* config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config; sourceTree = "<group>"; };
+		431D5CC11CEDD4D100DB2484 /* logs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = logs; sourceTree = "<group>"; };
+		431D5CC21CEDD4D100DB2484 /* logs_attacks */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = logs_attacks; sourceTree = "<group>"; };
+		431D5CC31CEDD4D100DB2484 /* results */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = results; sourceTree = "<group>"; };
+		43314EB51D2173890072B025 /* det_detections.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = det_detections.csv; sourceTree = "<group>"; };
+		43314EB61D2173890072B025 /* det_false_positives.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = det_false_positives.csv; sourceTree = "<group>"; };
+		43314EB71D217AA60072B025 /* stats_headers */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stats_headers; sourceTree = "<group>"; };
+		43443DF520CFD236003447F2 /* input_darpa2000.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input_darpa2000.log; sourceTree = "<group>"; };
+		43651DC41DB0C6B80000597C /* logs.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = logs.log; sourceTree = "<group>"; };
+		43651DC51DB2D7410000597C /* stats_noph.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stats_noph.csv; sourceTree = "<group>"; };
+		439BEA6320CE9049000DC7E4 /* morwilog_v6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = morwilog_v6.cpp; sourceTree = "<group>"; };
+		439BEA6420CE9049000DC7E4 /* morwilog_v6.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = morwilog_v6.hpp; sourceTree = "<group>"; };
+		439BEA6620CFBABE000DC7E4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		439BEA6C20CFBADB000DC7E4 /* Morwilog_v5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Morwilog_v5; sourceTree = BUILT_PRODUCTS_DIR; };
+		439BEA8820CFBE12000DC7E4 /* LogSummary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LogSummary.cpp; sourceTree = "<group>"; };
+		439BEA8920CFBE12000DC7E4 /* LogSummary.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LogSummary.hpp; sourceTree = "<group>"; };
+		439BEA8B20CFC04E000DC7E4 /* Log.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Log.cpp; sourceTree = "<group>"; };
+		439BEA8C20CFC04E000DC7E4 /* Log.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Log.hpp; sourceTree = "<group>"; };
+		439BEA9120CFC11A000DC7E4 /* LogDictionary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LogDictionary.cpp; sourceTree = "<group>"; };
+		439BEA9220CFC11A000DC7E4 /* LogDictionary.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LogDictionary.hpp; sourceTree = "<group>"; };
+		439BEA9420CFC1F1000DC7E4 /* FieldEntry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FieldEntry.cpp; sourceTree = "<group>"; };
+		439BEA9520CFC1F1000DC7E4 /* FieldEntry.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FieldEntry.hpp; sourceTree = "<group>"; };
+		439BEA9720CFC242000DC7E4 /* global_variables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = global_variables.h; sourceTree = "<group>"; };
+		439BEA9820CFC25D000DC7E4 /* Classifier.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Classifier.hpp; sourceTree = "<group>"; };
+		439BEA9920CFC25D000DC7E4 /* Classifier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Classifier.cpp; sourceTree = "<group>"; };
+		439BEA9B20CFC284000DC7E4 /* InvDictionary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InvDictionary.cpp; sourceTree = "<group>"; };
+		439BEA9C20CFC284000DC7E4 /* InvDictionary.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = InvDictionary.hpp; sourceTree = "<group>"; };
+		43F2B28B1D144DBB0049F7CE /* stats.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stats.csv; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		431D5C861CEDC08C00DB2484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		439BEA6920CFBADB000DC7E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		431D5C801CEDC08C00DB2484 = {
+			isa = PBXGroup;
+			children = (
+				43443DF520CFD236003447F2 /* input_darpa2000.log */,
+				439BEA9E20CFC3F3000DC7E4 /* data */,
+				439BEA6220CE9030000DC7E4 /* Morwilog_v6 */,
+				43651DC41DB0C6B80000597C /* logs.log */,
+				43314EB71D217AA60072B025 /* stats_headers */,
+				43314EB51D2173890072B025 /* det_detections.csv */,
+				43314EB61D2173890072B025 /* det_false_positives.csv */,
+				43F2B28B1D144DBB0049F7CE /* stats.csv */,
+				43651DC51DB2D7410000597C /* stats_noph.csv */,
+				431D5CC11CEDD4D100DB2484 /* logs */,
+				431D5CC21CEDD4D100DB2484 /* logs_attacks */,
+				431D5CC31CEDD4D100DB2484 /* results */,
+				431D5CBE1CEDC0EE00DB2484 /* config */,
+				431D5C8A1CEDC08C00DB2484 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		431D5C8A1CEDC08C00DB2484 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				431D5C891CEDC08C00DB2484 /* Morwilog_v6 */,
+				439BEA6C20CFBADB000DC7E4 /* Morwilog_v5 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		439BEA6220CE9030000DC7E4 /* Morwilog_v6 */ = {
+			isa = PBXGroup;
+			children = (
+				439BEA6320CE9049000DC7E4 /* morwilog_v6.cpp */,
+				439BEA6420CE9049000DC7E4 /* morwilog_v6.hpp */,
+				439BEA6620CFBABE000DC7E4 /* main.cpp */,
+				439BEA9920CFC25D000DC7E4 /* Classifier.cpp */,
+				439BEA9820CFC25D000DC7E4 /* Classifier.hpp */,
+				439BEA9420CFC1F1000DC7E4 /* FieldEntry.cpp */,
+				439BEA9520CFC1F1000DC7E4 /* FieldEntry.hpp */,
+				439BEA9B20CFC284000DC7E4 /* InvDictionary.cpp */,
+				439BEA9C20CFC284000DC7E4 /* InvDictionary.hpp */,
+				439BEA8B20CFC04E000DC7E4 /* Log.cpp */,
+				439BEA8C20CFC04E000DC7E4 /* Log.hpp */,
+				439BEA9120CFC11A000DC7E4 /* LogDictionary.cpp */,
+				439BEA9220CFC11A000DC7E4 /* LogDictionary.hpp */,
+				439BEA8820CFBE12000DC7E4 /* LogSummary.cpp */,
+				439BEA8920CFBE12000DC7E4 /* LogSummary.hpp */,
+				439BEA9720CFC242000DC7E4 /* global_variables.h */,
+			);
+			path = Morwilog_v6;
+			sourceTree = "<group>";
+		};
+		439BEA9E20CFC3F3000DC7E4 /* data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		431D5C881CEDC08C00DB2484 /* Morwilog_v6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 431D5C901CEDC08D00DB2484 /* Build configuration list for PBXNativeTarget "Morwilog_v6" */;
+			buildPhases = (
+				431D5C851CEDC08C00DB2484 /* Sources */,
+				431D5C861CEDC08C00DB2484 /* Frameworks */,
+				431D5C871CEDC08C00DB2484 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Morwilog_v6;
+			productName = Morwilog_v3;
+			productReference = 431D5C891CEDC08C00DB2484 /* Morwilog_v6 */;
+			productType = "com.apple.product-type.tool";
+		};
+		439BEA6B20CFBADB000DC7E4 /* Morwilog_v5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 439BEA7020CFBADB000DC7E4 /* Build configuration list for PBXNativeTarget "Morwilog_v5" */;
+			buildPhases = (
+				439BEA6820CFBADB000DC7E4 /* Sources */,
+				439BEA6920CFBADB000DC7E4 /* Frameworks */,
+				439BEA6A20CFBADB000DC7E4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Morwilog_v5;
+			productName = Morwilog_v5;
+			productReference = 439BEA6C20CFBADB000DC7E4 /* Morwilog_v5 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		431D5C811CEDC08C00DB2484 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Julio Navarro Lara";
+				TargetAttributes = {
+					431D5C881CEDC08C00DB2484 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					439BEA6B20CFBADB000DC7E4 = {
+						CreatedOnToolsVersion = 9.4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 431D5C841CEDC08C00DB2484 /* Build configuration list for PBXProject "Morwilog_v6" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 431D5C801CEDC08C00DB2484;
+			productRefGroup = 431D5C8A1CEDC08C00DB2484 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				431D5C881CEDC08C00DB2484 /* Morwilog_v6 */,
+				439BEA6B20CFBADB000DC7E4 /* Morwilog_v5 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		431D5C851CEDC08C00DB2484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439BEA6520CE9049000DC7E4 /* morwilog_v6.cpp in Sources */,
+				439BEA6720CFBABE000DC7E4 /* main.cpp in Sources */,
+				439BEA8D20CFC04E000DC7E4 /* Log.cpp in Sources */,
+				439BEA9A20CFC25D000DC7E4 /* Classifier.cpp in Sources */,
+				439BEA9320CFC11B000DC7E4 /* LogDictionary.cpp in Sources */,
+				439BEA9D20CFC284000DC7E4 /* InvDictionary.cpp in Sources */,
+				439BEA8A20CFBE12000DC7E4 /* LogSummary.cpp in Sources */,
+				439BEA9620CFC1F1000DC7E4 /* FieldEntry.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		439BEA6820CFBADB000DC7E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		431D5C8E1CEDC08C00DB2484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		431D5C8F1CEDC08D00DB2484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		431D5C911CEDC08D00DB2484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /Users/Julio/programming/c/morwilog/Morwilog_v4;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = Morwilog_v6;
+			};
+			name = Debug;
+		};
+		431D5C921CEDC08D00DB2484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /Users/Julio/programming/c/morwilog/Morwilog_v4;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = Morwilog_v6;
+			};
+			name = Release;
+		};
+		439BEA7120CFBADB000DC7E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		439BEA7220CFBADB000DC7E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		431D5C841CEDC08C00DB2484 /* Build configuration list for PBXProject "Morwilog_v6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				431D5C8E1CEDC08C00DB2484 /* Debug */,
+				431D5C8F1CEDC08D00DB2484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		431D5C901CEDC08D00DB2484 /* Build configuration list for PBXNativeTarget "Morwilog_v6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				431D5C911CEDC08D00DB2484 /* Debug */,
+				431D5C921CEDC08D00DB2484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		439BEA7020CFBADB000DC7E4 /* Build configuration list for PBXNativeTarget "Morwilog_v5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				439BEA7120CFBADB000DC7E4 /* Debug */,
+				439BEA7220CFBADB000DC7E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 431D5C811CEDC08C00DB2484 /* Project object */;
+}
